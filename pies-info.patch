@@ -1,0 +1,22 @@
+--- pies-1.5/doc/pies.texi.orig	2020-12-08 16:22:31.000000000 +0100
++++ pies-1.5/doc/pies.texi	2021-01-09 19:03:47.154925527 +0100
+@@ -28,13 +28,13 @@
+ @include macros.texi
+ 
+ @ifinfo
+-@dircategory System Administration
++@dircategory System Administration:
+ @direntry
+-* GNU Pies: (pies).             Program Invocation and Execution Supervisor.
+-* pies: (pies) Invocation.      GNU Pies Command Line Options.
+-* pies.conf: (pies) Configuration.    GNU Pies Configuration File.
+-* piesctl: (pies) piesctl.            GNU Pies Control Tool.
+-* piesctl.conf: (pies) piesctl.conf.  Configuration File for the @command{piesctl} tool.
++* GNU Pies: (pies).			Program Invocation and Execution Supervisor
++* pies: (pies) Invocation.		GNU Pies Command Line Options
++* pies.conf: (pies) Configuration.	GNU Pies Configuration File
++* piesctl: (pies) piesctl.		GNU Pies Control Tool
++* piesctl.conf: (pies) piesctl.conf.	Configuration File for the @command{piesctl} tool
+ @end direntry
+ @end ifinfo
+ 
