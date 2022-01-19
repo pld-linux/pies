@@ -1,17 +1,18 @@
 Summary:	GNU PIES - Program Invocation and Execution Supervisor
 Summary(pl.UTF-8):	GNU PIES - nadzorca wywoływania i wykonywania programów
 Name:		pies
-Version:	1.6
+Version:	1.7
 Release:	1
 License:	GPL v3+
 Group:		Daemons
 Source0:	https://ftp.gnu.org/gnu/pies/%{name}-%{version}.tar.bz2
-# Source0-md5:	46402d25b98b79f3d0abbf42293eaae8
+# Source0-md5:	367802ca2a0fefd578e0777f5e89e702
 Patch0:		%{name}-info.patch
 URL:		https://www.gnu.org.ua/software/pies/
 BuildRequires:	gettext-tools >= 0.19
 BuildRequires:	pam-devel
 BuildRequires:	texinfo
+Requires:	m4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -86,7 +87,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_bindir}/piesctl
 %attr(755,root,root) %{_sbindir}/pies
-%{_datadir}/pies
 %{_infodir}/pies.info*
 
 %files inetd
