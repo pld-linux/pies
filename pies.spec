@@ -2,7 +2,7 @@ Summary:	GNU PIES - Program Invocation and Execution Supervisor
 Summary(pl.UTF-8):	GNU PIES - nadzorca wywoływania i wykonywania programów
 Name:		pies
 Version:	1.7
-Release:	1
+Release:	2
 License:	GPL v3+
 Group:		Daemons
 Source0:	https://ftp.gnu.org/gnu/pies/%{name}-%{version}.tar.bz2
